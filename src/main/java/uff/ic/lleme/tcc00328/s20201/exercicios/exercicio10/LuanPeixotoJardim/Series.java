@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package uff.ic.lleme.tcc00328.s20201.exercicios.exercicio6.LuanPeixotoJardim.sql;
+package uff.ic.lleme.tcc00328.s20201.exercicios.exercicio10.LuanPeixotoJardim;
 import java.util.Scanner;
 import  java.lang.Math;
+
 /**
  *
  * @author luan
@@ -17,9 +18,8 @@ public class Series {
         Scanner input = new Scanner(System.in);
         num = input.nextInt();
         soma = 0;
-        while (num > -1) {
-            soma += Math.pow(-1,num) / (2*num + 1);
-            num -= 1;
+        for (int i = 0; i <= num; i++) {
+            soma += Math.pow(-1,i) / (2*i + 1);
         }
         System.out.println("Somatório = " + soma);
     }

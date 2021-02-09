@@ -1,7 +1,7 @@
-package uff.ic.lleme.tcc00328.s20201.exercicios.exercicio12.LuanPeixotoJardim;
+package uff.ic.lleme.tcc00328.s20201.exercicios.exercicio12;
 import java.util.Scanner;
 
-public class Divisores {
+public class LuanPeixotoJardim {
     public static int num;
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

@@ -1,7 +1,8 @@
-package uff.ic.lleme.tcc00328.s20201.exercicios.exercicio5.LuanPeixotoJardim;
+package uff.ic.lleme.tcc00328.s20201.exercicios.exercicio9;
 import java.util.Scanner;
 
-public class Fibonacci {
+public class LuanPeixotoJardim {
+    
     public static int num;
     public static int ndois;
     public static int ntres;
@@ -22,11 +23,10 @@ public class Fibonacci {
             System.exit(0);
         }
         else {
-            while (num > 1) {
+            for (int i = 1; i < num; i++) {
                 nquatro = ndois + ntres;
                 ndois = ntres;
                 ntres = nquatro;
-                num -= 1;
             }
             System.out.println("Fibonacci = " + nquatro);
             System.exit(0);

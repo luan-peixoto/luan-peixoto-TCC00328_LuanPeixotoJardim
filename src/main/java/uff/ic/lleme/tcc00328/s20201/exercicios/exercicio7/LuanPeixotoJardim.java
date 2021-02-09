@@ -1,7 +1,7 @@
-package uff.ic.lleme.tcc00328.s20201.exercicios.exercicio7.LuanPeixotoJardim.sql;
+package uff.ic.lleme.tcc00328.s20201.exercicios.exercicio7;
 import java.util.Scanner;
 
-public class Mdc {
+public class LuanPeixotoJardim {
     public static int num;
     public static int ndois;
     public static int ntres;

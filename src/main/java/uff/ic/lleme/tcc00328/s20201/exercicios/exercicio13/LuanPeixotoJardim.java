@@ -1,7 +1,7 @@
-package uff.ic.lleme.tcc00328.s20201.exercicios.exercicio13.LuanPeixotoJardim;
+package uff.ic.lleme.tcc00328.s20201.exercicios.exercicio13;
 import java.util.Scanner;
 
-public class MediaDeValores {
+public class LuanPeixotoJardim {
     public static int num;
     public static float ndois;
     public static void main(String[] args) {

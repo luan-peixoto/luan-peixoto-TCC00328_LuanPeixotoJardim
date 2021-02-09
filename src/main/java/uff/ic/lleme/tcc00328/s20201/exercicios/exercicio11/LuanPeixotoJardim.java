@@ -1,7 +1,7 @@
-package uff.ic.lleme.tcc00328.s20201.exercicios.exercicio11.LuanPeixotoJardim;
+package uff.ic.lleme.tcc00328.s20201.exercicios.exercicio11;
 import java.util.Scanner;
 
-public class ProdutoInterno {
+public class LuanPeixotoJardim {
     public static int num;
     public static long soma;
     public static int flag;

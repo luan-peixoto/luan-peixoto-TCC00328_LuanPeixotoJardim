@@ -1,7 +1,7 @@
-package uff.ic.lleme.tcc00328.s20201.exercicios.exercicio2.LuanPeixotoJardim;
+package uff.ic.lleme.tcc00328.s20201.exercicios.exercicio2;
 import java.util.Scanner;
 
-public class fatorial {
+public class LuanPeixotoJardim {
     
     public static int num;
     public static int ndois;

@@ -1,11 +1,12 @@
 package uff.ic.lleme.tcc00328.s20201.exercicios.exercicio2;
+
 import java.util.Scanner;
 
 public class LuanPeixotoJardim {
-    
+
     public static int num;
     public static int ndois;
-    
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         num = input.nextInt();

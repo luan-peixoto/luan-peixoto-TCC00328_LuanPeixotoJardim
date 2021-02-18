@@ -17,7 +17,7 @@ public class LuanPeixotoJardim {
                     break;
                 }
             if (flag == 0)
-                soma += soma * i;
+                soma = soma * i;
             else
                 flag = 0;
         }

@@ -174,6 +174,7 @@ public class SistemaAcademico {
         System.out.println("Matrícula: " + alunos.getMatricula());
         System.out.println("Unidade: " + alunos.getUnidade() + "\n");
         System.out.println("Inscrições: \n");
+        
         for (int j = 0; j < 10; j++) {
             if (alunos.getInscricoes()[j] == null)
                 break;

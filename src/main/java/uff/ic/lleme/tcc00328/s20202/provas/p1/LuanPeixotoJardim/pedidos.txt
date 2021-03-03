@@ -1,0 +1,7 @@
+0#Batata com Queijo#1
+0#Cheese Burguer#1
+0#Sorvete#2
+1#Batata com Queijo#1
+2#Cheese Burguer#1
+2#Sorvete#2
+3#Cheese Burguer#2

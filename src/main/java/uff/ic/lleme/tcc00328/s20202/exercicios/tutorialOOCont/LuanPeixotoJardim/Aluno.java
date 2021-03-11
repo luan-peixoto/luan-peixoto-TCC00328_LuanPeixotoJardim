@@ -59,7 +59,5 @@ public class Aluno extends Pessoa {
         this.inscricoes = _inscricoes;
     }
     
-    
-    
-    
+     
 }

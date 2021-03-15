@@ -1,26 +1,26 @@
 package uff.ic.lleme.tcc00328.s20202.exercicios.scratch3;
 import java.io.Serializable;
 
-public class teste implements Serializable {
+public class Teste implements Serializable {
     
-    private int um = 3;
+    private int valor = 3;
     
-    public teste(int _um) {
-        this.um = _um;
+    public Teste(int _valor) {
+        this.valor = _valor;
     }
 
     /**
      * @return the um
      */
-    public int getUm() {
-        return um;
+    public int getValor() {
+        return valor;
     }
 
     /**
      * @param um the um to set
      */
-    public void setUm(int um) {
-        this.um = um;
+    public void setValor(int _valor) {
+        this.valor = _valor;
     }
     
 }

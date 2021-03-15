@@ -11,6 +11,12 @@ public class Dado {
         this.lancamento_2 = _lancamento_2;
         this.soma = _soma;
     }
+    
+    public void clone(Dado d) {
+        this.lancamento_1 = d.getLancamento_1();
+        this.lancamento_2 = d.getLancamento_2();
+        this.soma = d.getSoma();
+    }
 
     /**
      * @return the lancamento_1

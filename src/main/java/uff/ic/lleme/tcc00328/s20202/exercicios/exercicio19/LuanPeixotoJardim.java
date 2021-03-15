@@ -32,7 +32,8 @@ public class LuanPeixotoJardim {
                 int d = 0;
                 Dado jogo = new Dado(0,0,0);
                 carregarJogada(jogo);
-                lancador.getJogadas()[d] = jogo;
+                lancador.getJogadas()[d] = new Dado(0,0,0);
+                lancador.getJogadas()[d].clone(jogo);
                 int ponto = jogo.getSoma();
                 if (ponto == 7 || ponto == 11 ) {
                     vencedores[vencedor] = lancador;
@@ -47,7 +48,8 @@ public class LuanPeixotoJardim {
                     carregarJogada(jogo);
                     while(jogo.getSoma() != ponto && jogo.getSoma() != 7 && d < 10) {
                         carregarJogada(jogo);
-                        lancador.getJogadas()[d] = jogo;
+                        lancador.getJogadas()[d] = new Dado(0,0,0);
+                        lancador.getJogadas()[d].clone(jogo);
                         d += 1;
                     }
                     if (jogo.getSoma() == ponto) {

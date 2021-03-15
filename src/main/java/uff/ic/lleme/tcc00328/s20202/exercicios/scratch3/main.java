@@ -15,19 +15,19 @@ import java.io.FileNotFoundException;
 public class main {
     public static String save_load = "src/main/java/uff/ic/lleme/tcc00328/s20202/exercicios/"
             + "scratch3/testes.txt";
-    public static teste testes = new teste(5);
-    public static teste obj;
+    public static Teste teste = new Teste(5);
+    public static Teste teste2;
     
     
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         
-        System.out.println(testes.getUm());
+        System.out.println(teste.getValor());
         
-        testes.setUm(1);
-        save(testes, "save_load");
-        load(obj, "save_load");
+        teste.setValor(1);
+        save(teste, save_load);
+        teste2 = load(save_load);
         
-        System.out.println(obj.getUm());
+        System.out.println(teste2.getValor());
         
     }
     
@@ -39,10 +39,10 @@ public class main {
         }
     }
     
-    public static void load(Object obj, String file) throws FileNotFoundException, IOException, ClassNotFoundException {
+    public static Teste load(String file) throws FileNotFoundException, IOException, ClassNotFoundException {
         try (InputStream in = new FileInputStream(file);) {
             ObjectInputStream s = new ObjectInputStream(in);
-            obj = s.readObject();
+            return (Teste) s.readObject();
         }
     }
     

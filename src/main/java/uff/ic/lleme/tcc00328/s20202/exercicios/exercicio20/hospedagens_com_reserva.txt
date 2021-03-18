@@ -1,0 +1,3 @@
+000001#Luan Peixoto Jardim#13316213724#2433671264#Rua das Palmeiras#Brasileiro#Rio de Janeiro#Sao Paulo
+000002#Arthur Duarte de Souza#61235434212#2433650613#Morro Santo Antonio#Brasileiro#Rio de Janeiro#Sao Paulo
+000003#Luis Augusto#1796223724#2433652214#Rua do Abel#Brasileiro#Rio de Janeiro#Sao Paulo

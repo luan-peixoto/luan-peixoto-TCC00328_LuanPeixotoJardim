@@ -1,0 +1,2 @@
+2021.2#Ciencias da Computacao#Programacao Estruturada
+2022.1#Sistemas de Informacao#Estrutura de Dados

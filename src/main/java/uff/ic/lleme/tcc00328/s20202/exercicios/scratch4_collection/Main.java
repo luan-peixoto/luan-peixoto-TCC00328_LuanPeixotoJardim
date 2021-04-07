@@ -26,7 +26,10 @@ public class Main {
             System.out.println(aluno3.getCpf());
         }
         
-        
+        generic_class<String> t = new generic_class();
+        t.arry[0] = "\n\nccc";
+        t.CC = "string";
+        System.out.println(t.arry[0] + "  " + c);
         
     }
 }

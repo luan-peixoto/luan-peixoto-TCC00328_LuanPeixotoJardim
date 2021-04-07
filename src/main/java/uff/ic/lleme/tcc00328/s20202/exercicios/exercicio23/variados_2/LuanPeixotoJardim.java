@@ -1,6 +1,6 @@
-package uff.ic.lleme.tcc00328.s20202.exercicios.variados_1.variados_2;
+package uff.ic.lleme.tcc00328.s20202.exercicios.exercicio23.variados_2;
 
-public class main {
+public class LuanPeixotoJardim {
     
     public static void main(String[] args) {
         Vetor<Integer> vetor = new Vetor<Integer>();

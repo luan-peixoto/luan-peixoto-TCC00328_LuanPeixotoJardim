@@ -1,9 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package uff.ic.lleme.tcc00328.s20202.exercicios.variados_1.variados_2;
+package uff.ic.lleme.tcc00328.s20202.exercicios.exercicio23.variados_2;
 
 import java.util.Arrays;
 

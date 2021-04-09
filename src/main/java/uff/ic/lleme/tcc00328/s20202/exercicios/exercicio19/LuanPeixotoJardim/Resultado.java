@@ -1,4 +1,4 @@
-package uff.ic.lleme.tcc00328.s20202.exercicios.exercicio19;
+package uff.ic.lleme.tcc00328.s20202.exercicios.exercicio19.LuanPeixotoJardim;
 
 public class Resultado {
     

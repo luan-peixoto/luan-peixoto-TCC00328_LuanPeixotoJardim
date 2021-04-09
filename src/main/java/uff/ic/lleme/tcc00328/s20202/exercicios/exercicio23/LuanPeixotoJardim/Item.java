@@ -1,4 +1,4 @@
-package uff.ic.lleme.tcc00328.s20202.exercicios.exercicio23.variados_1;
+package uff.ic.lleme.tcc00328.s20202.exercicios.exercicio23.LuanPeixotoJardim.variados_1;
 
 public class Item {
     

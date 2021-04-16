@@ -1,11 +1,11 @@
-package uff.ic.lleme.tcc00328.s20202.exercicios.exercicio23.LuanPeixotoJardim.variados_1;
+package uff.ic.lleme.tcc00328.s20202.exercicio.exercicio23.LuanPeixotoJardim.variados_1;
 
 public class Produto {
-    
+
     private String codigo;
     private String nome;
     private float preco;
-    
+
     public Produto(String _codigo, String _nome, float _preco) {
         this.codigo = _codigo;
         this.nome = _nome;
@@ -27,9 +27,9 @@ public class Produto {
     public float getPreco() {
         return preco;
     }
-    
+
     public void setPreco(float preco) {
         this.preco = preco;
     }
-    
+
 }

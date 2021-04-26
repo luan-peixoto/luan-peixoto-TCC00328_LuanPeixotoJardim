@@ -1,4 +1,4 @@
-package uff.ic.lleme.tcc00328.exemplo.thread.deadlock;
+package uff.ic.lleme.tcc00328.s20202.exemplo.thread.deadlock;
 
 /**
  *

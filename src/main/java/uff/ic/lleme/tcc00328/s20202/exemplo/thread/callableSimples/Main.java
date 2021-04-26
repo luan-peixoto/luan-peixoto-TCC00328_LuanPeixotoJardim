@@ -1,4 +1,4 @@
-package uff.ic.lleme.tcc00328.exemplo.thread.callableSimples;
+package uff.ic.lleme.tcc00328.s20202.exemplo.thread.callableSimples;
 
 import java.util.concurrent.Callable;
 import uff.ic.lleme.tcc00328.exemplo.thread.util.Util;

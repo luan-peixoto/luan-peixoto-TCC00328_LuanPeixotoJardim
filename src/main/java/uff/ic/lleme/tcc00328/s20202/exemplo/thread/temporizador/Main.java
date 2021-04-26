@@ -1,4 +1,4 @@
-package uff.ic.lleme.tcc00328.exemplo.thread.temporizador;
+package uff.ic.lleme.tcc00328.s20202.exemplo.thread.temporizador;
 
 import uff.ic.lleme.tcc00328.exemplo.thread.temporizador.view.TelaPrincipal;
 import javax.swing.JFrame;

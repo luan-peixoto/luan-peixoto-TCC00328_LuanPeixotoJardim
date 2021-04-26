@@ -1,4 +1,4 @@
-package uff.ic.lleme.tcc00328.exemplo.thread.safelock;
+package uff.ic.lleme.tcc00328.s20202.exemplo.thread.safelock;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

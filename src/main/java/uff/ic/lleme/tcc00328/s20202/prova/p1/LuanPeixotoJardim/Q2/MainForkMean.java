@@ -11,7 +11,7 @@ public class MainForkMean {
         
         Valor valor = new Valor();
         List<Double> valores = new ArrayList<>();
-
+        //
         for (int i = 0; i < 1000000; i++) {
             valores.add(Math.random() * (20 - 1) + 1);
         }

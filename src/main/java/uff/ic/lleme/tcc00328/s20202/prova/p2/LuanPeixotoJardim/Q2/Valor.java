@@ -1,4 +1,4 @@
-package uff.ic.lleme.tcc00328.s20202.prova.p1.LuanPeixotoJardim.Q2;
+package uff.ic.lleme.tcc00328.s20202.prova.p2.LuanPeixotoJardim.Q2;
 
 public class Valor {
     

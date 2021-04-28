@@ -14,28 +14,28 @@ public class Valor {
     /**
      * @return the total
      */
-    public double getTotal() {
+    public synchronized double getTotal() {
         return total;
     }
 
     /**
      * @param total the total to set
      */
-    public void setTotal(double total) {
+    public synchronized void setTotal(double total) {
         this.total += total;
     }
 
     /**
      * @return the n
      */
-    public long getN() {
+    public synchronized long getN() {
         return n;
     }
 
     /**
      * @param n the n to set
      */
-    public void setN(long n) {
+    public synchronized void setN(long n) {
         this.n += n;
     }
     

@@ -22,6 +22,7 @@ public class MainForkMean {
 
         pool.invoke(fb);
         
+        System.out.println(valor.getN());
         System.out.println(valor.getTotal() / valor.getN());
 
             

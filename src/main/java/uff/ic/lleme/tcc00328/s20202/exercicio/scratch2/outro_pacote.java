@@ -1,13 +1,13 @@
 package uff.ic.lleme.tcc00328.s20202.exercicio.scratch2;
 
-import uff.ic.lleme.tcc00328.s20202.exercicio.scratch.aluno;
+import uff.ic.lleme.tcc00328.s20202.exercicio.scratch.Aluno;
 
 public class outro_pacote {
 
     public static void main(String[] args) {
-        aluno aluno1 = new aluno(1);
-        aluno aluno2 = new aluno(2);
-        aluno aluno3 = new aluno(3);
+        Aluno aluno1 = new Aluno(1);
+        Aluno aluno2 = new Aluno(2);
+        Aluno aluno3 = new Aluno(3);
 
         aluno1.nome = "arroz";
         aluno2.nome = "parede";

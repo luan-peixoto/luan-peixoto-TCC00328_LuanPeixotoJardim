@@ -1,9 +1,14 @@
 package uff.ic.lleme.tcc00328.s20202.exercicio.pilha;
-
+import java.lang.Math.*;
 
 public class Main {
     
     public static void main(String[] args) {
+        
+        
+       
+        
+        
         Pilha pilha = new Pilha();
         pilha.push(3);
         pilha.push(1);

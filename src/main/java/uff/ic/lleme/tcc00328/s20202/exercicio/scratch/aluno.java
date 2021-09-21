@@ -1,36 +1,40 @@
 package uff.ic.lleme.tcc00328.s20202.exercicio.scratch;
 
-public class aluno {
-    
-    public String nome;
-    int nota;
-    int cpf;
-    int idade;
-    static String pais;
+public class Aluno extends Pessoa {
+   
+    protected int nota;
+    private int cpf;
+    public static int idade = 1; // static faz com que todos os objetos da classe tenham o mesmo valor em "pais".
+    public static String pais;
     
     private int aux;
     
-    public aluno(int nota) {
+    public Aluno(int nota) {
         nome = null;
         this.nota = nota;
         cpf = 32;
         idade = calc_idade();
     }
     
-    void funcao() {
+    public void funcao() {
         nota = 7;
     }
     
-    public static int calc_idade() {
-        return 0;
+    public void cpsf() {
+        cpf = 13;
+    }
+    
+    
+    public static int calc_idade() { 
+        // static faz com que a funçao calc_idade() possa ser usada sem definir uma classe para ela
+        // static é como se fosse uma funçao que altera valores de UMA instancia global da classe
+        Aluno.idade = 18;
+        return Aluno.idade;
     }
 }
 
-    
-// static faz com que todos os objetos do main tenham o mesmo valor em "pais".
+   
 
-// static faz com que a funçao calc_idade() só possa ser usada na classe, enquanto...
-// ...funcao() pode ser usada no programa
 
 // private são variaveis q so podem ser usadas na classe, em outros programas não dá
 // public deixa publico pra qualquer programa de qualquer pacote usar usando import
